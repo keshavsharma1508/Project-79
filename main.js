@@ -2,7 +2,7 @@ menu_list_array = ["Veg Margherita Pizza", "Veg Extravaganza Pizza" , "Chicken T
                     ];
 
 function getmenu(){
-var htmldata;
+var htmldata="";
 menu_list_array.sort();
         for(var i=0;i<menu_list_array.length;i++){
             htmldata=htmldata+ menu_list_array[i] + '<br>'
@@ -15,6 +15,7 @@ function add_item(){
 var htmldata;
 var item=document.getElementById("add_item").value;
 menu_list_array.sort();
+        <img id="im1" src="food-and-drink-pizza-pizzas-tomato"/>
         // use the sort function as - menu_list_array.sort();
         htmldata="";
         for(var i=0;i<menu_list_array.length;i++){
