@@ -77,6 +77,7 @@ body{
 
   #add_toppings{
 	/* padding-left:30px; */
+	padding-left: 30px;
 	width:150px;
 	height:100px;
 	border: none;
